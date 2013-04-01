@@ -7,7 +7,7 @@
  *
  * Copyright (c) 2013 Yannick Albert (http://yckart.com)
  * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php).
- * 2013/03/24
+ * 2013/04/01
  */
 
 (function(factory) {
