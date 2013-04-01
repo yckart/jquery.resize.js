@@ -8,7 +8,7 @@
  * Copyright (c) 2013 Yannick Albert (http://yckart.com)
  * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php).
  * 2013/03/24
-*/
+ */
 
 (function(factory) {
     if(typeof define === 'function' && define.amd) {
@@ -41,7 +41,7 @@
         element.dispatchEvent(event);
     };
 
-    $.event.special.domresize = {
+    $.event.special.resize = {
         setup: function() {
             var element = this;
             var resize = 'onresize' in element;
@@ -113,12 +113,12 @@
     };
 
     $.fn.extend({
-        domresize: function(fn) {
-            return fn ? this.bind("domresize", fn) : this.trigger("domresize");
+        resize: function(fn) {
+            return fn ? this.bind("resize", fn) : this.trigger("resize");
         },
 
-        undomresize: function(fn) {
-            return this.unbind("domresize", fn);
+        unresize: function(fn) {
+            return this.unbind("resize", fn);
         }
     });
 
@@ -128,7 +128,7 @@
             args = [].slice.call(arguments, 1);
 
         event = $.event.fix(orgEvent);
-        event.type = "domresize";
+        event.type = "resize";
 
         // Add event to the front of the arguments
         args.unshift(event);
