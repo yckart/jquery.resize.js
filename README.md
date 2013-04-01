@@ -1,14 +1,17 @@
 #No documentation yet!
 (feel free to write a bit about it)
 
+## Example
+http://jsfiddle.net/ARTsinn/ufCrk/
+
 ## Download
- Get the [raw](https://raw.github.com/yckart/jquery.resize.js/master/jquery.resize.js) script, download the complete [package](https://github.com/yckart/jquery.resize.js/zipball/master) or fork it on [GitHub](https://github.com/yckart/jquery.resize.js/).
+Get the [raw](https://raw.github.com/yckart/jquery.resize.js/master/jquery.resize.js) script, download the complete [package](https://github.com/yckart/jquery.resize.js/zipball/master) or fork it on [GitHub](https://github.com/yckart/jquery.resize.js/).
 
 ## Support
 
- [@yckart](http://twitter.com/yckart) - #jquery #resize
+[@yckart](http://twitter.com/yckart) - #jquery #resize
 
- [http://yckart.com](http://yckart.com/)
+[http://yckart.com](http://yckart.com/)
 
 ### Thanks
 - http://workingdraft.de/113/
